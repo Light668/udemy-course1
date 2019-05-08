@@ -1,0 +1,16 @@
+2019-05-08 14:08:15.736  INFO 28336 --- [main] d.l.l.LogbackloggingApplication          : Starting LogbackloggingApplication on LAPTOP-E6RR4EE9 with PID 28336 (C:\Developer\udemy-SpringBoot-guide\udemy-course1\logbacklogging\target\classes started by Timo Radtke in C:\Developer\udemy-SpringBoot-guide\udemy-course1\logbacklogging)
+2019-05-08 14:08:15.749  INFO 28336 --- [main] d.l.l.LogbackloggingApplication          : No active profile set, falling back to default profiles: default
+2019-05-08 14:08:23.816  INFO 28336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2019-05-08 14:08:23.964  INFO 28336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-08 14:08:23.966  INFO 28336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-08 14:08:24.617  INFO 28336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-08 14:08:24.618 DEBUG 28336 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-08 14:08:24.618  INFO 28336 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8511 ms
+2019-05-08 14:08:25.252 DEBUG 28336 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-08 14:08:25.795  INFO 28336 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 14:08:25.863 DEBUG 28336 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-08 14:08:26.169 DEBUG 28336 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2019-05-08 14:08:26.209 DEBUG 28336 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-08 14:08:26.233 DEBUG 28336 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-08 14:08:27.461  INFO 28336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2019-05-08 14:08:27.482  INFO 28336 --- [main] d.l.l.LogbackloggingApplication          : Started LogbackloggingApplication in 13.601 seconds (JVM running for 15.163)
