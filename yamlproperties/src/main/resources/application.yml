@@ -1,0 +1,40 @@
+## YAML Template.
+spring:
+    profiles:
+        active: qa
+        
+---
+spring:
+    profiles: dev
+    
+server:
+    port: 9090
+    
+default:
+    course:
+        name: SAP HANA
+        chapterCount: 3
+        
+course:
+    name: AWS and DOCKER
+    chapterCount: 45
+    rating: 5
+    author: light668
+    
+---
+spring:
+    profiles: qa
+    
+server:
+    port: 9191
+    
+default:
+    course:
+        name: SAP HANA
+        chapterCount: 3
+        
+course:
+    name: AWS and DOCKER and ANGULAR
+    chapterCount: 55
+    rating: 5
+    author: light668
